@@ -61,7 +61,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:orientation="horizontal"
-                    android:weightSum="1">
+                    android:weightSum="1"
+                    android:baselineAligned="false">
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -131,7 +132,8 @@
                     android:gravity="center_horizontal"
                     android:orientation="horizontal"
                     android:weightSum="1"
-                    android:layout_marginTop="15dp">
+                    android:layout_marginTop="15dp"
+                    android:baselineAligned="false">
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -201,7 +203,8 @@
                     android:gravity="center_horizontal"
                     android:orientation="horizontal"
                     android:weightSum="1"
-                    android:layout_marginTop="15dp">
+                    android:layout_marginTop="15dp"
+                    android:baselineAligned="false">
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -271,7 +274,8 @@
                     android:gravity="center_horizontal"
                     android:orientation="horizontal"
                     android:weightSum="1"
-                    android:layout_marginTop="15dp">
+                    android:layout_marginTop="15dp"
+                    android:baselineAligned="false">
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -341,7 +345,8 @@
                     android:gravity="center_horizontal"
                     android:orientation="horizontal"
                     android:weightSum="1"
-                    android:layout_marginTop="15dp">
+                    android:layout_marginTop="15dp"
+                    android:baselineAligned="false">
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -411,7 +416,8 @@
                     android:gravity="center_horizontal"
                     android:orientation="horizontal"
                     android:weightSum="1"
-                    android:layout_marginTop="15dp">
+                    android:layout_marginTop="15dp"
+                    android:baselineAligned="false">
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -553,8 +559,10 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
-                android:layout_marginTop="50dp">
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
 
                 <Button
                     android:layout_width="0dp"
@@ -562,7 +570,9 @@
                     android:layout_weight="1"
                     android:onClick="displayResults"
                     android:text="@string/result"
-                    android:textSize="16sp" />
+                    android:textSize="14sp"
+                    android:background="@drawable/buttons"
+                    style="?android:attr/borderlessButtonStyle"/>
 
                 <Button
                     android:id="@+id/show_good_answers"
@@ -574,7 +584,9 @@
                     android:layout_weight="1"
                     android:onClick="showGoodAnswers"
                     android:text="@string/answers"
-                    android:textSize="16sp" />
+                    android:textSize="14sp"
+                    android:background="@drawable/buttons"
+                    style="?android:attr/borderlessButtonStyle"/>
 
                 <Button
                     android:id="@+id/reset"
@@ -583,7 +595,9 @@
                     android:layout_weight="1"
                     android:onClick="resetButton"
                     android:text="@string/reset"
-                    android:textSize="16sp" />
+                    android:textSize="14sp"
+                    android:background="@drawable/buttons"
+                    style="?android:attr/borderlessButtonStyle"/>
 
             </LinearLayout>
 
