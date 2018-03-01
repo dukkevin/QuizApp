@@ -15,7 +15,6 @@
             android:layout_marginTop="15dp"
             android:orientation="vertical">
 
-
             <!-- Main Title -->
             <LinearLayout
                 android:layout_width="match_parent"
@@ -477,28 +476,31 @@
 
             </LinearLayout>
 
-            <!-- Bonus Question -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:gravity="center_horizontal"
-                android:orientation="vertical">
-
+            <!-- Bonus Questions -->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/title_bonus_question"
                     android:textAllCaps="true"
-                    android:textSize="17sp"
-                    android:textStyle="bold" />
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"/>
 
+                <!-- First Bonus Question -->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/bonus_question"
-                    android:textSize="17sp"
-                    android:textStyle="bold" />
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
 
                 <CheckBox
                     android:id="@+id/first_checkbox"
@@ -520,24 +522,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="@string/third_answer_bonus_q" />
-
             </LinearLayout>
 
-            <!-- Extra Bonus Question -->
+            <!-- Second Bonus Question -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="25dp"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/title_extra_bonus_question"
-                    android:textAllCaps="true"
-                    android:textSize="17sp"
-                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"

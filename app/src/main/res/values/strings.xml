@@ -28,16 +28,13 @@
     <string name="sixth_question">What is the capital of Finland?</string>
 
     <!-- Title of Bonus Question -->
-    <string name="title_bonus_question">Bonus Question!</string>
-
-    <!-- Title of Extra Bonus Question -->
-    <string name="title_extra_bonus_question">Extra Bonus Question! :)</string>
+    <string name="title_bonus_question">2x Bonus Questions!</string>
 
     <!-- Bonus Question -->
-    <string name="bonus_question">The first two populated countrys from Europe?</string>
+    <string name="bonus_question">1) The first two populated countrys from Europe?</string>
 
     <!-- Extra Bonus Question -->
-    <string name="extra_bonus_question">Number of countries in the world?</string>
+    <string name="extra_bonus_question">2) Number of countries in the world?</string>
 
     <!-- First answer for first question -->
     <string name="first_answer">Warsaw</string>
