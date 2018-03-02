@@ -106,7 +106,13 @@ public class MainActivity extends AppCompatActivity {
             point++;
         }
 
-        Toast.makeText(this, "You got " + point + " on 8", Toast.LENGTH_LONG).show();
+        String first;
+        first = "You got ";
+
+        String last;
+        last = " on 8";
+
+        Toast.makeText(this, first + point + last, Toast.LENGTH_LONG).show();
     }
 
 

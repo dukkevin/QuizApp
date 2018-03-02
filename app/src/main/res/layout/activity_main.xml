@@ -30,7 +30,7 @@
                     android:elevation="8dp"
                     android:padding="10dp"
                     android:text="@string/title"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/title_size"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -53,7 +53,7 @@
                     android:inputType="textPersonName|textCapWords"
                     android:paddingLeft="70dp"
                     android:paddingRight="70dp"
-                    android:textSize="15sp" />
+                    android:textSize="@dimen/input_text" />
 
                 <!-- First Question -->
                 <LinearLayout
@@ -80,7 +80,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/first_question"
-                            android:textSize="17sp"
+                            android:textSize="@dimen/question_text"
                             android:textStyle="bold" />
 
                         <!-- Question Options -->
@@ -151,7 +151,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/second_question"
-                            android:textSize="17sp"
+                            android:textSize="@dimen/question_text"
                             android:textStyle="bold" />
 
                         <!-- Question Options -->
@@ -222,7 +222,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/third_question"
-                            android:textSize="17sp"
+                            android:textSize="@dimen/question_text"
                             android:textStyle="bold" />
 
                         <!-- Question Options -->
@@ -293,7 +293,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/fourth_question"
-                            android:textSize="17sp"
+                            android:textSize="@dimen/question_text"
                             android:textStyle="bold" />
 
                         <!-- Question Options -->
@@ -364,7 +364,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/fifth_question"
-                            android:textSize="17sp"
+                            android:textSize="@dimen/question_text"
                             android:textStyle="bold" />
 
                         <!-- Question Options -->
@@ -435,7 +435,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/sixth_question"
-                            android:textSize="17sp"
+                            android:textSize="@dimen/question_text"
                             android:textStyle="bold" />
 
                         <!-- Question Options -->
@@ -488,7 +488,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/title_bonus_question"
                     android:textAllCaps="true"
-                    android:textSize="21sp"
+                    android:textSize="@dimen/bonus_question_text"
                     android:textStyle="bold"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="50dp"/>
@@ -498,7 +498,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/bonus_question"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/bonus_question_title"
                     android:textStyle="bold"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"/>
@@ -542,7 +542,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/extra_bonus_question"
-                    android:textSize="17sp"
+                    android:textSize="@dimen/bonus_question_title"
                     android:textStyle="bold" />
 
                 <EditText
@@ -551,7 +551,7 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/hint_extra"
                     android:inputType="number"
-                    android:textSize="15sp" />
+                    android:textSize="@dimen/input_text" />
 
             </LinearLayout>
 
@@ -570,7 +570,7 @@
                     android:layout_weight="1"
                     android:onClick="displayResults"
                     android:text="@string/result"
-                    android:textSize="14sp"
+                    android:textSize="@dimen/button_text"
                     android:background="@drawable/buttons"
                     style="?android:attr/borderlessButtonStyle"/>
 
@@ -584,7 +584,7 @@
                     android:layout_weight="1"
                     android:onClick="showGoodAnswers"
                     android:text="@string/answers"
-                    android:textSize="14sp"
+                    android:textSize="@dimen/button_text"
                     android:background="@drawable/buttons"
                     style="?android:attr/borderlessButtonStyle"/>
 
@@ -595,7 +595,7 @@
                     android:layout_weight="1"
                     android:onClick="resetButton"
                     android:text="@string/reset"
-                    android:textSize="14sp"
+                    android:textSize="@dimen/button_text"
                     android:background="@drawable/buttons"
                     style="?android:attr/borderlessButtonStyle"/>
 
