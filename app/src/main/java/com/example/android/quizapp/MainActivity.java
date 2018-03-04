@@ -1,5 +1,6 @@
 package com.example.android.quizapp;
 
+import android.renderscript.ScriptGroup;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +10,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import org.w3c.dom.Text;
 
 /**
  * This is a quiz app with wich you can learn capitals of the world.
@@ -97,14 +100,13 @@ public class MainActivity extends AppCompatActivity {
             point++;
         }
 
+
         boolean toCheckFirstCheckBox = firstCheckBox.isChecked();
         boolean toCheckSecondCheckBox = secondCheckBox.isChecked();
         boolean toCheckThirdCheckBox = thirdCheckBox.isChecked();
 
-        if ((toCheckFirstCheckBox && toCheckThirdCheckBox) &&
-                (toCheckSecondCheckBox==false)) {
+        if (toCheckFirstCheckBox && toCheckThirdCheckBox && !toCheckSecondCheckBox)
             point++;
-        }
 
         String first;
         first = "You got ";
@@ -112,9 +114,18 @@ public class MainActivity extends AppCompatActivity {
         String last;
         last = " on 8";
 
+        String none;
+        none = "You did not get any answers right! Try again!";
+
+        if (point == 0) {
+            Toast.makeText(this, none, Toast.LENGTH_LONG).show();
+
+        }
+
+        else {
         Toast.makeText(this, first + point + last, Toast.LENGTH_LONG).show();
     }
-
+    }
 
     /**
      * This method is called when the ANSWERS button is clicked.
