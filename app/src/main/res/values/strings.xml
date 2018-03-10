@@ -111,4 +111,7 @@
     <!-- Number Field -->
     <string name="hint_extra">Type the number of total countries&#8230;</string>
 
+    <!-- Not answered any question -->
+    <string name="none">You did not get any answers right! Try again!</string>
+
 </resources>

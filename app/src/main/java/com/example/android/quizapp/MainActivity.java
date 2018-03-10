@@ -114,8 +114,10 @@ public class MainActivity extends AppCompatActivity {
         String last;
         last = " on 8";
 
-        String none;
-        none = "You did not get any answers right! Try again!";
+        /**
+         * This method is called when the RESULT button is clicked, but not a single question is answered.
+         */
+        String none = getString(R.string.none);
 
         if (point == 0) {
             Toast.makeText(this, none, Toast.LENGTH_LONG).show();
