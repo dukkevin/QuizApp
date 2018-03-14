@@ -108,15 +108,11 @@ public class MainActivity extends AppCompatActivity {
         if (toCheckFirstCheckBox && toCheckThirdCheckBox && !toCheckSecondCheckBox)
             point++;
 
-        String first;
-        first = "You got ";
-
-        String last;
-        last = " on 8";
-
         /**
          * This method is called when the RESULT button is clicked, but not a single question is answered.
          */
+        String first = getString(R.string.first);
+        String last = getString(R.string. last);
         String none = getString(R.string.none);
 
         if (point == 0) {

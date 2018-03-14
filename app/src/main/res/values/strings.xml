@@ -111,6 +111,12 @@
     <!-- Number Field -->
     <string name="hint_extra">Type the number of total countries&#8230;</string>
 
+    <!-- You got -->
+    <string name="first">You got </string>
+
+    <!-- Last -->
+    <string name="last"> on 8</string>
+
     <!-- Not answered any question -->
     <string name="none">You did not get any answers right! Try again!</string>
 
